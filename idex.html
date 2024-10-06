@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #092631;
+            background-color: #000000;
         }
         h1 {
             color: #f2ff00;
@@ -19,7 +19,6 @@
             color: #ffffff;
             margin: 0;
             padding: 0;
-            text-align: center;
         }
         h2 {
             color: #f2ff00;
@@ -28,44 +27,84 @@
             padding: 2%;
         }
         article {
-            background-color: #ff00e69f;
+            background-color: #0011ff9f;
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            flex-direction: row;
+            align-items: left;
             margin: 2% auto;
-            padding: 2%;
-            width: auto;
+            padding: 1%;
+            width: 80%;
+            color: #00fffb;
         }
+        h3 {
+            color: #f2ff00;
+            text-align: center;
+            font-size: 20px;;
+            margin-left: 4%;
+            display: flex;
+            position: relative;
+        }
+        .descripcion {
+            margin-left: 4%;
+            font-size: 12px;
+            color: #ffffff;
+        }
+        .precio {
+            margin-left: 4%;
+            font-size: 12px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        img {
+            width: 60%;
+        }   
         footer {
             background-color: #00fffb;
             display: absolute;
             align-items: center;
             padding: 2%;
             bottom: 0;
+            text-align: center;
         }
     </style>
 </head>
+
+
 <body>
     <h1>Wallpapers Store</h1>
-    <p>En Wallpapers Store encontrarás los mejores wallpapers para tu fondo de pantalla.</p>
+    <p style="text-align: center;">Encuentra los mejores wallpapers para tu fondo de pantalla.</p>
     <h2>Nuestros Productos</h2>
+<div>
+    <article>
+        <img src="/assets/imgs/1.jpeg" alt="Wallpaper 1">
+        <div>
+            <h3>Vaporwave OG</h3>
+            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p> <br>
+            <p class="precio">Precio: $100</p>
+        </div>
+    </article>
+    <article>
+        <img src="/assets/imgs/2.jpg" alt="Wallpaper 2">
+        <div>
+            <h3>Creative Explotion</h3>
+            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p> <br>
+            <p class="precio">Precio: $100</p>
+        </div>
+    </article>
+    <article>
+        <img src="/assets/imgs/3.jpeg" alt="Wallpaper 3">
+        <div>
+            <h3>Cosmic Valley</h3>
+            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p> <br>
+            <p class="precio">Precio: $100</p>
+        </div>
+    </article>
+</div>
 
-    <article>
-        <h3>Wallpaper 1</h3>
-        <img src="img/1.jpg" alt="Wallpaper 1">
-    </article>
-    <article>
-        <h3>Wallpaper 2</h3>
-        <img src="img/2.jpg" alt="Wallpaper 2">
-    </article>
-    <article>
-        <h3>Wallpaper 3</h3>
-        <img src="img/3.jpg" alt="Wallpaper 3">
-    </article>
-    
+
 <footer>
     <p style="color: #000000; font-weight: bold;">Copyright © 2024 Wallpapers Store</p>
+    <p style="color: #000000; font-weight: bold;">Contacto: +56 9 65804357</p>
 </footer>
 </body>
 </html>
