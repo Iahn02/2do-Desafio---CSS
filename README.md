@@ -1,6 +1,6 @@
 
 # 2do Desafío
-![Wallpapers Store](assets/imgs/portada.png)
+![Wallpapers Store](assets/imgs/Portada.png)
 
 Bienvenido a Wallpapers Store, tu tienda en línea para encontrar los mejores fondos de pantalla. Sumérgete en una colección vibrante y variada que incluye desde nostalgia retro hasta explosiones creativas de color. Explora los misterios del universo o siente la energía de la ciudad con nuestros fondos de pantalla únicos.
 ## Vista de la página
