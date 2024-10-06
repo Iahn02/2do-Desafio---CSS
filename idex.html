@@ -4,82 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wallpapers Store</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #000000;
-        }
-        h1 {
-            color: #f2ff00;
-            text-align: center;
-            margin: 2%;
-            padding: 2%;
-        }
-        p {
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-        }
-        h2 {
-            color: #f2ff00;
-            text-align: center;
-            margin: 2%;
-            padding: 2%;
-        }
-        article {
-            background-color: #0011ff9f;
-            display: flex;
-            flex-direction: row;
-            align-items: left;
-            margin: 2% auto;
-            padding: 1%;
-            width: 80%;
-            color: #00fffb;
-        }
-        h3 {
-            color: #f2ff00;
-            text-align: center;
-            font-size: 20px;;
-            margin-left: 4%;
-            display: flex;
-            position: relative;
-        }
-        .descripcion {
-            margin-left: 4%;
-            font-size: 12px;
-            color: #ffffff;
-        }
-        .precio {
-            margin-left: 4%;
-            font-size: 12px;
-            color: #ffffff;
-            font-weight: bold;
-        }
-        img {
-            width: 60%;
-        }   
-        footer {
-            background-color: #00fffb;
-            display: absolute;
-            align-items: center;
-            padding: 2%;
-            bottom: 0;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-
 <body>
-    <h1>Wallpapers Store</h1>
-    <p style="text-align: center;">Encuentra los mejores wallpapers para tu fondo de pantalla.</p>
+    <header>    
+        <h1>Wallpapers Store</h1>
+        <p class="subtitulo">Encuentra los mejores wallpapers para tu fondo de pantalla.</p>
+    </header>
     <h2>Nuestros Productos</h2>
 <div>
     <article>
         <img src="/assets/imgs/1.jpeg" alt="Wallpaper 1">
         <div>
             <h3>Vaporwave OG</h3>
-            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p> <br>
+            <p class="descripcion">Sumérgete en la nostalgia retro con este vibrante fondo de pantalla.</p> <br>
             <p class="precio">Precio: $100</p>
         </div>
     </article>
@@ -87,7 +26,7 @@
         <img src="/assets/imgs/2.jpg" alt="Wallpaper 2">
         <div>
             <h3>Creative Explotion</h3>
-            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p> <br>
+            <p class="descripcion">Desata tu creatividad con esta explosión de colores y formas.</p> <br>
             <p class="precio">Precio: $100</p>
         </div>
     </article>
@@ -95,7 +34,15 @@
         <img src="/assets/imgs/3.jpeg" alt="Wallpaper 3">
         <div>
             <h3>Cosmic Valley</h3>
-            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p> <br>
+            <p class="descripcion">Explora los misterios del universo con este fondo de pantalla cósmico.</p> <br>
+            <p class="precio">Precio: $100</p>
+        </div>
+    </article>
+    <article>
+        <img src="/assets/imgs/fondo.jpg" alt="Wallpaper 4">
+        <div>
+            <h3>Late Night City</h3>
+            <p class="descripcion">Siente la energía de la ciudad con este fondo de pantalla nocturno.</p> <br>
             <p class="precio">Precio: $100</p>
         </div>
     </article>
@@ -103,8 +50,33 @@
 
 
 <footer>
-    <p style="color: #000000; font-weight: bold;">Copyright © 2024 Wallpapers Store</p>
-    <p style="color: #000000; font-weight: bold;">Contacto: +56 9 65804357</p>
+    <div class="footer-content">
+
+        <h4 class="footer-title">Contacto</h4>
+        
+        <ul class="footer-icons">
+            <li>
+                <a href="https://github.com/Iahn02" target="_blank" style="text-decoration: none;">
+                    <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+                    <span>GitHub</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/not.iahn" target="_blank" style="text-decoration: none;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                    <span>Instagram</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://linkedin.com/in/iahn-vera/" target="_blank" style="text-decoration: none;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                    <span>LinkedIn</span>
+                </a>
+            </li>
+        </ul>
+        <br>
+        <p style="color: #f2ff00;  text-align: center;">Created by Iahn Vera<br> Copyright © 2024 Wallpapers Store</p>
+    </div>
 </footer>
 </body>
 </html>
